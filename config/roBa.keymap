@@ -86,7 +86,7 @@
 &lt_to_layer_0 3 ESC  &lt_to_layer_0 6 ESC  &kp LEFT_ALT  &lt_to_layer_0 2 ESC  &kp LEFT_COMMAND  &lt_to_layer_0 1 ESC      &kp ENTER      &kp RIGHT_COMMAND                             &kp DEL
             >;
 
-            sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
+            sensor-bindings = <&inc_dec_kp K_SCROLL_UP K_SCROLL_DOWN>;
         };
 
         NUM {
