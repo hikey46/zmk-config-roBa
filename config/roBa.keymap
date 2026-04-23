@@ -82,6 +82,7 @@
             label = "ENCODER_MSC_DOWN_UP";
             #sensor-binding-cells = <0>;
             bindings = <&msc SCRL_DOWN>, <&msc SCRL_UP>;
+
             tap-ms = <20>;
         };
     };
@@ -131,10 +132,10 @@
 
         MOUSE {
             bindings = <
-&trans            &trans  &trans        &trans  &trans                                &trans  &trans                &trans    &trans                     &trans
-&kp LEFT_CONTROL  &trans  &trans        &trans  &trans            &trans      &trans  &trans  &mkp MB1              &mkp MB3  &mkp MB2                   &trans
-&kp LEFT_SHIFT    &trans  &trans        &trans  &trans            &trans      &trans  &trans  &kp LG(LEFT_BRACKET)  &trans    &kp LG(RG(RIGHT_BRACKET))  &trans
-&trans            &trans  &kp LEFT_ALT  &trans  &kp LEFT_COMMAND  &trans      &trans  &trans                                                             &trans
+&trans            &trans  &trans        &trans  &trans                                &trans  &trans                &trans    &trans                 &trans
+&kp LEFT_CONTROL  &trans  &trans        &trans  &trans            &trans      &trans  &trans  &mkp MB1              &mkp MB3  &mkp MB2               &trans
+&kp LEFT_SHIFT    &trans  &trans        &trans  &trans            &trans      &trans  &trans  &kp LG(LEFT_BRACKET)  &trans    &kp LG(RIGHT_BRACKET)  &trans
+&trans            &trans  &kp LEFT_ALT  &trans  &kp LEFT_COMMAND  &trans      &trans  &trans                                                         &trans
             >;
         };
 
