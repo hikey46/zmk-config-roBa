@@ -32,14 +32,9 @@
     combos {
         compatible = "zmk,combos";
 
-        EN {
-            bindings = <&kp LANGUAGE_2>;
-            key-positions = <10 11>;
-        };
-
-        JA {
-            bindings = <&kp LANGUAGE_1>;
-            key-positions = <20 21>;
+        tab {
+            bindings = <&kp TAB>;
+            key-positions = <22 23>;
         };
     };
 
